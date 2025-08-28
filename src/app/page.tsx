@@ -17,6 +17,9 @@ import UnstyledLink from '@/components/links/UnstyledLink';
  */
 import Logo from '~/svg/Logo.svg';
 import { Section } from 'lucide-react';
+import Section1 from '@/components/sections/section1';
+import Section2 from '@/components/sections/section2';
+import Section3 from '@/components/sections/section3';
 
 // !STARTERCONF -> Select !STARTERCONF and CMD + SHIFT + F
 // Before you begin editing, follow all comments with `STARTERCONF`,
@@ -72,6 +75,9 @@ export default function HomePage() {
           </div>
         </div>
       </nav>
+      <Section1 />
+      <Section2 />
+      <Section3 />
 
       <section className='bg-white'>
         <div className='layout relative flex min-h-screen flex-col items-center justify-center py-12 text-center'>
