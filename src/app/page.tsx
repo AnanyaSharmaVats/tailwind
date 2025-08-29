@@ -75,6 +75,7 @@ export default function HomePage() {
           </div>
         </div>
       </nav>
+
       <Section1 />
       <Section2 />
       <Section3 />
