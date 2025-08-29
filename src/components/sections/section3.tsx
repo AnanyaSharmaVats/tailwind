@@ -14,16 +14,21 @@ const Section3 = () => {
         </div>
 
         <div className="grid grid-cols-5 grid-rows-5 gap-4">
-          <div className="">
-          <ProductCart />
+        <div className="">
+          < ProductCart />
           </div>
-          <div className="col-start-3 row-start-2"><ProductCart name="Apple" subtext="DEMO" /></div>
-          <div className="col-start-2 row-start-2"><ProductCart image="/images/homepage.png" name="Apple 1" subtext="DEMO 1" /></div>
-          <div className="col-start-1 row-start-2"><ProductCart /></div>
-          <div className="col-start-2 row-start-1"><ProductCart /></div>
-          <div className="col-start-3 row-start-1"><ProductCart /></div>
-          <div className="col-start-4 row-start-2"><ProductCart /></div>
-          <div className="col-start-4 row-start-1"><ProductCart /></div>
+         
+          <div className="col-start-2 row-start-1"><ProductCart image="/images/leviosa.png" name="Leviosa" subtext="Stylish cafe chair" price="Rp 2.500.000" discountPrice="" /></div>
+          <div className="col-start-3 row-start-1"><ProductCart image="/images/lolito.png" name="Lolito" subtext="Luxury big sofa" price="Rp 7.000.000" discountPrice="Rp 14.000.000" /></div>
+          <div className="col-start-4 row-start-1"><ProductCart image="/images/respira.png" name="Respira" subtext="Outdoor bar table and stool" price="Rp 500.000" discountPrice="" /></div>
+
+          <div className="col-start-1 row-start-2"><ProductCart image="/images/grifo.png" name="Grifo" subtext="Night lamp" price="Rp 1.500.000" discountPrice="" /></div>
+          <div className="col-start-2 row-start-2"><ProductCart image="/images/muggo.png" name="Muggo" subtext="Small mug" price="Rp 150.000" discountPrice="" /></div>
+          <div className="col-start-3 row-start-2"><ProductCart image="/images/pingky.png" name="Pingky" subtext="Cute bed set" price="Rp 7.000.000" discountPrice="Rp 14.000.000" /></div>
+          <div className="col-start-4 row-start-2"><ProductCart image="/images/potty.png" name="Potty" subtext="Minimalist flower pot" price="Rp 500.000" discountPrice="" /></div>
+
+
+
         </div>
 
 
