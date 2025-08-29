@@ -13,7 +13,7 @@ export const ProductCart = ({ image = "/images/syltherine.png", name ="Syltherin
 
 
               <div className="flex items-center space-x-3">
-                <span className="text-xl font-bold text-gray-900">{price}</span>
+                <span className="text-l font-bold text-gray-900">{price}</span>
                 <span className="text-gray-400 line-through">{discountPrice}</span>
               </div>
             </div>
