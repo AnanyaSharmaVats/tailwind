@@ -92,7 +92,7 @@ export default function HomePage() {
               </div>
               <div>
                 <ul>
-                  <li className="mb-10 text-left text-gray-400" >Links</li>
+                  <li className="mb-10 text-left text-gray-400 " >Links</li>
                   <li className="mb-10 text-left" >Home</li>
                   <li className="mb-10 text-left" >Shop</li>
                   <li className="mb-10 text-left" >About</li>
@@ -111,7 +111,7 @@ export default function HomePage() {
               <div>
                 <ul>
                   <li className="mb-10 text-left text-gray-400" >Newsletter</li>
-                  <li className="mb-10 text-left text-gray-400 underline decoration-black" >Enter Your Email Address SUBSCRIBE</li>
+                  <li className="mb-10 text-left text-gray-400 underline underline-offset-4 decoration-black">Enter Your Email Address <span className="text-black">SUBSCRIBE</span> </li>
                 </ul>
               </div>
             </div>
