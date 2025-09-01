@@ -88,6 +88,7 @@ export default function HomePage() {
           </section>
           
           <footer className='absolute bottom-2 text-gray-700'>
+            
             © {new Date().getFullYear()} By{' '}
             furino. All rights reverved.
 
