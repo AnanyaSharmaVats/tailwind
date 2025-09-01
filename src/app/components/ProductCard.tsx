@@ -1,7 +1,7 @@
 
 export const ProductCart = ({ image = "/images/syltherine.png", name ="Syltherine", subtext="Stylish cafe chair", price="Rp 2.500.000", discountPrice="Rp 3.500.000"}: any) => {
   return  (
-    <div className="max-w-md mx-auto bg-white rounded-lg shadow-md overflow-hidden">
+    <div className="max-w-md mx-auto bg-gray-100  overflow-hidden">
 
             <div className="relative">
               <img src={image} alt="Stylish Cafe Chair" className="w-full object-cover" />

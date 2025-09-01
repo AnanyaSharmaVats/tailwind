@@ -83,11 +83,10 @@ export default function HomePage() {
       <section className='bg-white'>
         <div className='layout relative flex min-h-screen flex-col items-center justify-center py-12 text-center'>
 
-
-
           <section>
             <button className="border border-yellow-600 text-yellow-600 px-20 py-3 font-semibold">Show More</button>
           </section>
+          
           <footer className='absolute bottom-2 text-gray-700'>
             © {new Date().getFullYear()} By{' '}
             furino. All rights reverved.

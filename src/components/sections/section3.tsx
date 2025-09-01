@@ -31,9 +31,6 @@ const Section3 = () => {
 
         </div>
 
-
-
-
       </div>
     </div>
   </section>)
