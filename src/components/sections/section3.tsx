@@ -33,6 +33,9 @@ const Section3 = () => {
 
       </div>
     </div>
+          <section className="flex justify-center">
+            <button className="border border-yellow-600 text-yellow-600 px-20 py-3 font-semibold ">Show More</button>
+          </section>
   </section>)
 }
 

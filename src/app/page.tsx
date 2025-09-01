@@ -82,13 +82,40 @@ export default function HomePage() {
 
       <section className='bg-white'>
         <div className='layout relative flex min-h-screen flex-col items-center justify-center py-12 text-center'>
-
-          <section>
-            <button className="border border-yellow-600 text-yellow-600 px-20 py-3 font-semibold">Show More</button>
-          </section>
+          
           
           <footer className='absolute bottom-2 text-gray-700'>
-            
+            <hr className="border-gray-300 mb-10"/>
+            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 text-sm text-gray-800">
+              <div><h3 className="text- font-bold text-gray-900 sm:text-3xl text-left" >Funiro.</h3><br /> 
+              <p className="text-left text-gray-400" >400 University Drive Suite 200 Coral Gables,<br /> FL 33134 USA</p>
+              </div>
+              <div>
+                <ul>
+                  <li className="mb-10 text-left text-gray-400" >Links</li>
+                  <li className="mb-10 text-left" >Home</li>
+                  <li className="mb-10 text-left" >Shop</li>
+                  <li className="mb-10 text-left" >About</li>
+                  <li className="mb-10 text-left" >Contact</li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li className="mb-10 text-left text-gray-400" >Help</li>
+                  <li className="mb-10 text-left" >Payment Options</li>
+                  <li className="mb-10 text-left" >Returns</li>
+                  <li className="mb-10 text-left" >Privacy Policies</li>
+                  <li className="mb-10 text-left" ></li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li className="mb-10 text-left text-gray-400" >Newsletter</li>
+                  <li className="mb-10 text-left text-gray-400 underline decoration-black" >Enter Your Email Address SUBSCRIBE</li>
+                </ul>
+              </div>
+            </div>
+<hr className="border-gray-300 mb-10"/>
             © {new Date().getFullYear()} By{' '}
             furino. All rights reverved.
 

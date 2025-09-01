@@ -15,25 +15,24 @@ const Section2 = () => {
             <span className="mt-4 text-gray-700 flex justify-center">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </span>
+
           </div>
-
-
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 flex justify-center mb-70">
             <div className="h-32 rounded "> <img
               src="/images/dining.png"
               className="rounded"
               alt=""
-            /></div>
+            /> <p className= "text-2xl font-semibold text-gray-900 mb-1 flex justify-center" >Dining</p></div>
             <div className="h-32 rounded "> <img
               src="/images/livingroom.png"
               className="rounded"
               alt=""
-            /></div>
+            /> <p className= "text-2xl font-semibold text-gray-900 mb-1 flex justify-center" >Living</p></div>
             <div className="h-32 rounded "> <img
               src="/images/bedroom.png"
               className="rounded"
               alt=""
-            /></div>
+            /> <p className= "text-2xl font-semibold text-gray-900 mb-1 flex justify-center" >Bedroom</p></div>
           </div>
 
         </div>
