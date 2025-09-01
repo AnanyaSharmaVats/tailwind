@@ -32,7 +32,7 @@ export default function HomePage() {
       <nav className="bg-white border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="/images/furnirologo.png" className="h-8" alt="Flowbite Logo" />
+            <img src="/images/furnirologo.png" className="h-8" alt="Furniro Logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Furniro</span>
           </a>
           <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
@@ -63,13 +63,13 @@ export default function HomePage() {
                 <a href="#"><img src="/images/alert.png" alt="alert" className="h-5 w-5" /></a>
               </li>
               <li>
-                <a href="#"><img src="/images/search.png" alt="alert" className="h-5 w-5" /></a>
+                <a href="#"><img src="/images/search.png" alt="search" className="h-5 w-5" /></a>
               </li>
               <li>
-                <a href="#"><img src="/images/like.png" alt="alert" className="h-5 w-5" /></a>
+                <a href="#"><img src="/images/like.png" alt="like" className="h-5 w-5" /></a>
               </li>
               <li>
-                <a href="#"><img src="/images/shopingcart.png" alt="alert" className="h-5 w-5" /></a>
+                <a href="#"><img src="/images/shopingcart.png" alt="shopingcart" className="h-5 w-5" /></a>
               </li>
             </ul>
           </div>

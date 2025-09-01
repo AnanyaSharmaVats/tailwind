@@ -21,17 +21,17 @@ const Section2 = () => {
             <div className="h-32 rounded "> <img
               src="/images/dining.png"
               className="rounded"
-              alt=""
+              alt="dining"
             /> <p className= "text-2xl font-semibold text-gray-900 mb-1 flex justify-center" >Dining</p></div>
             <div className="h-32 rounded "> <img
               src="/images/livingroom.png"
               className="rounded"
-              alt=""
+              alt="livingroom"
             /> <p className= "text-2xl font-semibold text-gray-900 mb-1 flex justify-center" >Living</p></div>
             <div className="h-32 rounded "> <img
               src="/images/bedroom.png"
               className="rounded"
-              alt=""
+              alt="bedroom"
             /> <p className= "text-2xl font-semibold text-gray-900 mb-1 flex justify-center" >Bedroom</p></div>
           </div>
 
