@@ -80,13 +80,13 @@ export default function HomePage() {
       <Section2 />
       <Section3 />
 
-      <section className='bg-white '>
-        <div className='layout relative flex min-h-screen flex-col items-center justify-center py-12 text-center'>
+      <section className="bg-white ">
+        <div className="layout relative flex min-h-screen flex-col items-center justify-center py-12 text-center">
           
           
-          <footer className='absolute bottom-2 text-gray-700'>
-            <hr className="border-gray-300 mb-10"/>
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 text-sm text-gray-800">
+          <footer className="absolute bottom-2 text-gray-700">
+            <hr className="border-gray-300 mb-10 w-full"/>
+            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-10 text-sm text-gray-800">
               <div><h3 className="text-lg font-bold text-gray-900 sm:text-3xl text-left" >Funiro.</h3><br /> 
               <p className="text-left text-gray-400 text-xs" >400 University Drive Suite 200 Coral Gables,<br /> FL 33134 USA</p>
               </div>
@@ -111,7 +111,13 @@ export default function HomePage() {
               <div>
                 <ul>
                   <li className="mb-10 text-left text-gray-400 text-xs" >Newsletter</li>
-                  <li className="mb-10 text-left text-gray-400 underline underline-offset-4 decoration-black text-xs">Enter Your Email Address<span className="text-black">SUBSCRIBE</span> </li>
+                  <li className="mb-10 text-left text-gray-400 underline underline-offset-4 decoration-black text-xs">Enter Your Email Address</li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li className="mb-10 text-left text-black text-xs" ><pre>  </pre></li>
+                  <li className="mb-10 text-left text-black underline underline-offset-4 decoration-black text-xs">SUBSCRIBE</li>
                 </ul>
               </div>
             </div>
