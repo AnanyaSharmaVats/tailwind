@@ -20,6 +20,8 @@ import { Section } from 'lucide-react';
 import Section1 from '@/components/sections/section1';
 import Section2 from '@/components/sections/section2';
 import Section3 from '@/components/sections/section3';
+import Section4 from '@/components/sections/section4';
+import Section5 from '@/components/sections/section5';
 
 // !STARTERCONF -> Select !STARTERCONF and CMD + SHIFT + F
 // Before you begin editing, follow all comments with `STARTERCONF`,
@@ -79,7 +81,9 @@ export default function HomePage() {
       <Section1 />
       <Section2 />
       <Section3 />
-
+      <Section4 />
+      <Section5 />
+      
       <section className="bg-white ">
         <div className="layout relative flex min-h-screen flex-col items-center justify-center py-12 text-center">
           
