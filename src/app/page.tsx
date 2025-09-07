@@ -79,6 +79,41 @@ export default function HomePage() {
       </nav>
       
       <Section1 />
+      <h2 className="text-xl font-semibold text-gray-900 sm:text-3xl flex justify-center">
+      Buy the perfect decor for your home.
+      </h2>
+      <p className="text-center text-gray-400 text-xs" >Seating for every style-from light, sandy looks to deep, striking color.</p>
+      <div className="grid grid-cols-4 grid-rows-5 gap-4">
+        <div className="col-span-2 row-span-2">
+          <div className="grid grid-cols-5 grid-rows-5 gap-4">
+            <div className="col-span-2 row-span-3">1</div>
+            <div className="col-span-2 row-start-4">2</div>
+            <div className="col-span-2 row-start-5">3</div>
+          </div>
+        </div>
+        <div className="col-span-2 row-span-2 col-start-3">
+          <div className="grid grid-cols-5 grid-rows-5 gap-4">
+            <div className="col-span-2 row-span-3">1</div>
+            <div className="col-span-2 row-start-4">2</div>
+            <div className="col-span-2 row-start-5">3</div>
+          </div>
+        </div>
+        <div className="col-span-2 row-span-2 row-start-3">
+          <div className="grid grid-cols-5 grid-rows-5 gap-4">
+            <div className="col-span-2 row-span-3">1</div>
+            <div className="col-span-2 row-start-4">2</div>
+            <div className="col-span-2 row-start-5">3</div>
+          </div>
+        </div>
+        <div className="col-span-2 row-span-2 col-start-3 row-start-3">
+          <div className="grid grid-cols-5 grid-rows-5 gap-4">
+            <div className="col-span-2 row-span-3">1</div>
+            <div className="col-span-2 row-start-4">2</div>
+            <div className="col-span-2 row-start-5">3</div>
+          </div>
+        </div>
+      </div>
+    
       <Section2 />
       <Section3 />
       <Section4 />
