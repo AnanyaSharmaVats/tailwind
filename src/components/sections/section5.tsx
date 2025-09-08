@@ -10,7 +10,7 @@ const Section5 = () => {
 </div>
 
 
-<div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+<div className="grid grid-cols-2 md:grid-cols-4 gap-4  mb-20">
     <div className="grid gap-4">
         <div>
             <img className="h-auto max-w-full " src="/images/1st.png" alt=""/>
@@ -42,6 +42,17 @@ const Section5 = () => {
         </div>
         <div>
             <img className="h-auto max-w-full " src="/images/9th.png" alt="" />
+        </div>
+    </div>
+    <div className="grid gap-4">
+        <div>
+            <img className="h-auto max-w-full " src="/images/1st.png" alt=""/>
+        </div>
+        <div>
+            <img className="h-auto max-w-full " src="/images/2nd.png" alt=""/>
+        </div>
+        <div>
+            <img className="h-auto max-w-full " src="/images/3rd.png" alt=""/>
         </div>
     </div>
 </div>
