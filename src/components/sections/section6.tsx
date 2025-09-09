@@ -2,104 +2,169 @@ import * as React from 'react';
 
 const Section6 = () => {
   return (
-    <section>
-      <div id="default-carousel" className="relative w-full" data-carousel="slide">
-        <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
-          <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img 
-              src="/images/blog1.png" 
-              className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" 
-              alt="..." 
-            />
-          </div>
-          <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img 
-              src="/images/blog1.png" 
-              className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" 
-              alt="..." 
-            />
-          </div>
-          <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img 
-              src="/images/blog1.png" 
-              className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" 
-              alt="..." 
-            />
-          </div>
-          <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img 
-              src="/images/blog1.png" 
-              className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" 
-              alt="..." 
-            />
-          </div>
-          <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img 
-              src="/images/blog1.png" 
-              className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" 
-              alt="..." 
-            />
+    <section className="w-full mx-[20px] flex gap-4">
+     
+
+      {/* Left half */}
+      <div className="w-1/2 grid grid-rows-5 gap-4">
+        {/* Top left */}
+        <div className="row-span-2">
+          <div className="grid gap-4">
+            <div className="p-2 bg-gray-100 rounded-lg flex flex-col items-center text-center m-5">
+              <h3 className="font-semibold text-gray-800">Cozy Sofas</h3>
+              <p className="text-gray-500 text-sm">
+                Discover sofas that combine comfort and style for your living room.
+              </p>
+              <img
+                src="/images/bedroom.png"
+                alt="Cozy Sofas"
+                className="mt-2 rounded-lg object-cover h-100 w-full"
+              />
+            </div>
+            <div className="p-2 bg-gray-100 rounded-lg flex flex-col items-center text-center m-5">
+              <h3 className="font-semibold text-gray-800">Elegant Chairs</h3>
+              <p className="text-gray-500 text-sm">
+                Add a touch of sophistication with our curated chair collection.
+              </p>
+              <img
+                src="/images/bedroom.png"
+                alt="Elegant Chairs"
+                className="mt-2 rounded-lg object-cover h-100 w-full"
+              />
+            </div>
+            <div className="p-2 bg-gray-100 rounded-lg flex flex-col items-center text-center m-5">
+              <h3 className="font-semibold text-gray-800">Stylish Tables</h3>
+              <p className="text-gray-500 text-sm">
+                Perfect tables for your dining and living spaces.
+              </p>
+              <img
+                src="/images/bedroom.png"
+                alt="Stylish Tables"
+                className="mt-2 rounded-lg object-cover h-100 w-full"
+              />
+            </div>
           </div>
         </div>
-        <div className="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
-          <button type="button" className="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-          <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-          <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-          <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
-          <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+
+        {/* Bottom left */}
+        <div className="row-span-2 row-start-3">
+          <div className="grid gap-4">
+            <div className="p-2 bg-gray-100 rounded-lg flex flex-col items-center text-center m-5">
+              <h3 className="font-semibold text-gray-800">Storage Solutions</h3>
+              <p className="text-gray-500 text-sm">
+                Keep your home tidy with functional yet stylish storage.
+              </p>
+              <img
+                src="/images/bedroom.png"
+                alt="Storage Solutions"
+                className="mt-2 rounded-lg object-cover h-100 w-full"
+              />
+            </div>
+            <div className="p-2 bg-gray-100 rounded-lg flex flex-col items-center text-center m-5">
+              <h3 className="font-semibold text-gray-800">Bedroom Decor</h3>
+              <p className="text-gray-500 text-sm">
+                Refresh your bedroom with cozy bedding and elegant furniture.
+              </p>
+              <img
+                src="/images/bedroom.png"
+                alt="Bedroom Decor"
+                className="mt-2 rounded-lg object-cover h-100 w-full"
+              />
+            </div>
+            <div className="p-2 bg-gray-100 rounded-lg flex flex-col items-center text-center m-5">
+              <h3 className="font-semibold text-gray-800">Outdoor Living</h3>
+              <p className="text-gray-500 text-sm">
+                Stylish furniture for patios and gardens.
+              </p>
+              <img
+                src="/images/bedroom.png"
+                alt="Outdoor Living"
+                className="mt-2 rounded-lg object-cover h-100 w-full"
+              />
+            </div>
+          </div>
         </div>
-        <button 
-          type="button" 
-          className="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" 
-          data-carousel-prev
-        >
-          <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 
-            group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 
-            group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg 
-              className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" 
-              aria-hidden="true" 
-              xmlns="http://www.w3.org/2000/svg" 
-              fill="none" 
-              viewBox="0 0 6 10"
-            >
-              <path 
-                stroke="currentColor" 
-                strokeLinecap="round" 
-                strokeLinejoin="round" 
-                strokeWidth="2" 
-                d="M5 1 1 5l4 4" 
+      </div>
+
+      {/* Right half */}
+      <div className="w-1/2 grid grid-rows-5 gap-4">
+        {/* Top right */}
+        <div className="row-span-2 row-start-1">
+          <div className="grid gap-4">
+            <div className="p-2 bg-gray-100 rounded-lg flex flex-col items-center text-center m-5">
+              <h3 className="font-semibold text-gray-800">Lighting Ideas</h3>
+              <p className="text-gray-500 text-sm">
+                Illuminate your home with our modern and classic lighting options.
+              </p>
+              <img
+                src="/images/bedroom.png"
+                alt="Lighting Ideas"
+                className="mt-2 rounded-lg object-cover h-100 w-full"
               />
-            </svg>
-            <span className="sr-only">Previous</span>
-          </span>
-        </button>
-        <button 
-          type="button" 
-          className="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" 
-          data-carousel-next
-        >
-          <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 
-            group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 
-            group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg 
-              className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" 
-              aria-hidden="true" 
-              xmlns="http://www.w3.org/2000/svg" 
-              fill="none" 
-              viewBox="0 0 6 10"
-            >
-              <path 
-                stroke="currentColor" 
-                strokeLinecap="round" 
-                strokeLinejoin="round" 
-                strokeWidth="2" 
-                d="m1 9 4-4-4-4" 
+            </div>
+            <div className="p-2 bg-gray-100 rounded-lg flex flex-col items-center text-center m-5">
+              <h3 className="font-semibold text-gray-800">Rugs & Carpets</h3>
+              <p className="text-gray-500 text-sm">
+                Add warmth and texture to any room with our rug collection.
+              </p>
+              <img
+                src="/images/bedroom.png"
+                alt="Rugs & Carpets"
+                className="mt-2 rounded-lg object-cover h-100 w-full"
               />
-            </svg>
-            <span className="sr-only">Next</span>
-          </span>
-        </button>
+            </div>
+            <div className="p-2 bg-gray-100 rounded-lg flex flex-col items-center text-center m-5">
+              <h3 className="font-semibold text-gray-800">Decor Accessories</h3>
+              <p className="text-gray-500 text-sm">
+                Small touches that make a big impact on your home’s style.
+              </p>
+              <img
+                src="/images/bedroom.png"
+                alt="Decor Accessories"
+                className="mt-2 rounded-lg object-cover h-100 w-full"
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* Bottom right */}
+        <div className="row-span-2 row-start-3">
+          <div className="grid gap-4">
+            <div className="p-2 bg-gray-100 rounded-lg flex flex-col items-center text-center m-5">
+              <h3 className="font-semibold text-gray-800">Office Furniture</h3>
+              <p className="text-gray-500 text-sm">
+                Ergonomic and stylish solutions for your home office.
+              </p>
+              <img
+                src="/images/bedroom.png"
+                alt="Office Furniture"
+                className="mt-2 rounded-lg object-cover h-100 w-full"
+              />
+            </div>
+            <div className="p-2 bg-gray-100 rounded-lg flex flex-col items-center text-center m-5">
+              <h3 className="font-semibold text-gray-800">Kitchen Essentials</h3>
+              <p className="text-gray-500 text-sm">
+                Functional furniture and decor for a modern kitchen.
+              </p>
+              <img
+                src="/images/bedroom.png"
+                alt="Kitchen Essentials"
+                className="mt-2 rounded-lg object-cover h-100 w-full"
+              />
+            </div>
+            <div className="p-2 bg-gray-100 rounded-lg flex flex-col items-center text-center m-5">
+              <h3 className="font-semibold text-gray-800">Seasonal Favorites</h3>
+              <p className="text-gray-500 text-sm">
+                Curated pieces to refresh your home each season.
+              </p>
+              <img
+                src="/images/bedroom.png"
+                alt="Seasonal Favorites"
+                className="mt-2 rounded-lg object-cover h-100 w-full"
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
