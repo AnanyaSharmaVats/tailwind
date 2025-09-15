@@ -16,7 +16,7 @@ const Section6 = () => {
                 Discover sofas that combine comfort and style for your living room.
               </p>
               <img
-                src="/images/bedroom.png"
+                src="/images/sofas.avif"
                 alt="Cozy Sofas"
                 className="mt-2 rounded-lg object-cover h-100 w-full"
               />
@@ -27,7 +27,7 @@ const Section6 = () => {
                 Add a touch of sophistication with our curated chair collection.
               </p>
               <img
-                src="/images/bedroom.png"
+                src="/images/chairs.avif"
                 alt="Elegant Chairs"
                 className="mt-2 rounded-lg object-cover h-100 w-full"
               />
@@ -38,7 +38,7 @@ const Section6 = () => {
                 Perfect tables for your dining and living spaces.
               </p>
               <img
-                src="/images/bedroom.png"
+                src="/images/table.jpg"
                 alt="Stylish Tables"
                 className="mt-2 rounded-lg object-cover h-100 w-full"
               />
@@ -55,7 +55,7 @@ const Section6 = () => {
                 Keep your home tidy with functional yet stylish storage.
               </p>
               <img
-                src="/images/bedroom.png"
+                src="/images/storage.jpg"
                 alt="Storage Solutions"
                 className="mt-2 rounded-lg object-cover h-100 w-full"
               />
@@ -66,7 +66,7 @@ const Section6 = () => {
                 Refresh your bedroom with cozy bedding and elegant furniture.
               </p>
               <img
-                src="/images/bedroom.png"
+                src="/images/bedroomdecor.jpg"
                 alt="Bedroom Decor"
                 className="mt-2 rounded-lg object-cover h-100 w-full"
               />
@@ -77,7 +77,7 @@ const Section6 = () => {
                 Stylish furniture for patios and gardens.
               </p>
               <img
-                src="/images/bedroom.png"
+                src="/images/outdoors.jpg"
                 alt="Outdoor Living"
                 className="mt-2 rounded-lg object-cover h-100 w-full"
               />
@@ -97,7 +97,7 @@ const Section6 = () => {
                 Illuminate your home with our modern and classic lighting options.
               </p>
               <img
-                src="/images/bedroom.png"
+                src="/images/lightings.avif"
                 alt="Lighting Ideas"
                 className="mt-2 rounded-lg object-cover h-100 w-full"
               />
@@ -108,7 +108,7 @@ const Section6 = () => {
                 Add warmth and texture to any room with our rug collection.
               </p>
               <img
-                src="/images/bedroom.png"
+                src="/images/rugs.avif"
                 alt="Rugs & Carpets"
                 className="mt-2 rounded-lg object-cover h-100 w-full"
               />
@@ -119,7 +119,7 @@ const Section6 = () => {
                 Small touches that make a big impact on your home’s style.
               </p>
               <img
-                src="/images/bedroom.png"
+                src="/images/decor.jpg"
                 alt="Decor Accessories"
                 className="mt-2 rounded-lg object-cover h-100 w-full"
               />
@@ -136,7 +136,7 @@ const Section6 = () => {
                 Ergonomic and stylish solutions for your home office.
               </p>
               <img
-                src="/images/bedroom.png"
+                src="/images/office.jpg"
                 alt="Office Furniture"
                 className="mt-2 rounded-lg object-cover h-100 w-full"
               />
@@ -147,7 +147,7 @@ const Section6 = () => {
                 Functional furniture and decor for a modern kitchen.
               </p>
               <img
-                src="/images/bedroom.png"
+                src="/images/kitchen.jpg"
                 alt="Kitchen Essentials"
                 className="mt-2 rounded-lg object-cover h-100 w-full"
               />
@@ -158,7 +158,7 @@ const Section6 = () => {
                 Curated pieces to refresh your home each season.
               </p>
               <img
-                src="/images/bedroom.png"
+                src="/images/seasonhalloween.jpg"
                 alt="Seasonal Favorites"
                 className="mt-2 rounded-lg object-cover h-100 w-full"
               />
